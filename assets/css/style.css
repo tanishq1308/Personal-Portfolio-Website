@@ -334,8 +334,6 @@
   .avatar-box {
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
-    width: auto;
-    height: auto;
   }
   
   .info-content .name {
@@ -1331,7 +1329,7 @@
      */
   
     .sidebar {
-      max-height: 180px;
+      max-height: 230px;
       margin-bottom: 30px;
     }
   
@@ -1343,9 +1341,9 @@
   
     .avatar-box img { width: 120px; }
   
-    .info-content .name { margin-bottom: 15px; }
+    .info-content .name { margin-bottom: 15px; font-size: var(--fs-1); }
   
-    .info-content .title { padding: 5px 18px; }
+    .info-content .title { padding: 5px 18px; font-size: var(--fs-4); }
   
     .info_more-btn {
       top: -30px;
