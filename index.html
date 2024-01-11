@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/avatar.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Tanishq Kakkar" width="80">
+          <img src="./assets/images/avatar.png" alt="Tanishq Kakkar" width="80" height="170">
         </figure>
 
         <div class="info-content">
@@ -528,6 +528,10 @@
             </li>
 
             <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
               <button data-filter-btn>Machine Learning</button>
             </li>
 
@@ -555,6 +559,10 @@
                 <button data-select-item>Applications</button>
               </li>
 
+              <li class="filter-item">
+                <button data-filter-btn>Python</button>
+              </li>
+
               <li class="select-item">
                 <button data-select-item>Machine Learning</button>
               </li>
@@ -578,7 +586,7 @@
 
                 <h3 class="project-title">MNIT Dean Student Welfare</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Application</p>
 
               </a>
             </li>
@@ -614,7 +622,7 @@
 
                 <h3 class="project-title">Coaching</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Application</p>
 
               </a>
             </li>
@@ -630,14 +638,14 @@
                   <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">News App</h3>
+                <h3 class="project-title">News</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Application</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item data-category="python">
               <a href="https://github.com/tanishq1308/LUDO">
 
                 <figure class="project-img">
@@ -650,7 +658,7 @@
 
                 <h3 class="project-title">LUDO</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Python</p>
 
               </a>
             </li>
@@ -668,7 +676,7 @@
 
                 <h3 class="project-title">Tic-Tac-Toe</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Application</p>
 
               </a>
             </li>
@@ -684,9 +692,9 @@
                   <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Recipe App</h3>
+                <h3 class="project-title">Recipe</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Application</p>
 
               </a>
             </li>
@@ -923,7 +931,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" enabled data-form-btn>
+            <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
